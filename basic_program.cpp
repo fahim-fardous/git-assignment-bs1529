@@ -27,6 +27,8 @@ int main(){
 
     int count = 0;
 
+    sum+=10;
+
     while(sum>0){
         count++;
         
@@ -34,4 +36,6 @@ int main(){
     }
     
     cout<<count<<endl;
+    
+    
 }
