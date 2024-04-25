@@ -40,7 +40,7 @@ int nth_prime(int n) {
 }
 
 int main(){
-    cout<<"Hello world"<<endl;
+    cout<<"Hello world x"<<endl;
     int num;
     cin>>num;
     int sum = 0;
