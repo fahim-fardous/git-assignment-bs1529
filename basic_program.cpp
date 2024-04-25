@@ -23,11 +23,15 @@ int main(){
     }
     cout<<sum<<endl;
 
-    int n;
-    cin >> n;
-    if (n < 0) {
-        cout << "Error! Factorial of a negative number doesn't exist.";
-    } else {
-        cout << "Factorial of " << n << " = " << factorial(n);
+    cout<<"How many time can we divide our sum equally?"<<endl;
+
+    int count = 0;
+
+    while(sum>0){
+        count++;
+        
+        sum/=2;
     }
+    
+    cout<<count<<endl;
 }
