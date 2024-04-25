@@ -37,7 +37,6 @@ int nth_prime(int n) {
     }
 
     return primes.back();
-
 }
 
 int main(){
