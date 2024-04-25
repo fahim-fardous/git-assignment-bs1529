@@ -11,7 +11,6 @@ long long factorial(int n) {
     }
     return result;
 }
-}
 
 bool is_prime(int num) {
     if (num <= 1) {
