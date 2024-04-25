@@ -9,7 +9,7 @@ long long factorial(int n) {
     for (int i = 1; i <= n; ++i) {
         result *= i;
     }
-    return result+8;
+    return result;
 }
 
 bool is_prime(int num) {
