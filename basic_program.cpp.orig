@@ -1,0 +1,50 @@
+#include<bits/stdc++.h>
+using namespace std;
+<<<<<<< HEAD
+
+long long factorial(int n) {
+    if (n == 0 || n == 1) {
+        return 1;
+    }
+    long long result = 1;
+    for (int i = 1; i <= n; ++i) {
+        result *= i;
+    }
+    return result;
+}
+
+=======
+>>>>>>> 829e763 (Added new code in basic_program file)
+int main(){
+    cout<<"Hello world"<<endl;
+    int num;
+    cin>>num;
+    int sum = 0;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 829e763 (Added new code in basic_program file)
+    for(int i=1;i<=num;i++){
+        sum+=i;
+    }
+    cout<<sum<<endl;
+<<<<<<< HEAD
+
+    cout<<"How many time can we divide our sum equally?"<<endl;
+
+    int count = 0;
+
+    sum+=10;
+
+    while(sum>0){
+        count++;
+        
+        sum/=2;
+    }
+    
+    cout<<count<<endl;
+    
+    
+=======
+>>>>>>> 829e763 (Added new code in basic_program file)
+}
