@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 long long factorial(int n) {
     if (n == 0 || n == 1) {
         return 1;
@@ -9,6 +10,34 @@ long long factorial(int n) {
         result *= i;
     }
     return result;
+
+
+bool is_prime(int num) {
+    if (num <= 1) {
+        return false;
+    }
+    for (int i = 2; i * i <= num; ++i) {
+        if (num % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+// Function to find the nth prime number
+int nth_prime(int n) {
+    std::vector<int> primes;
+    int num = 2; // Start checking from 2
+
+    while (primes.size() < n) {
+        if (is_prime(num)) {
+            primes.push_back(num);
+        }
+        ++num;
+    }
+
+    return primes.back();
+
 }
 
 int main(){
