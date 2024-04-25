@@ -19,7 +19,7 @@ int nth_prime(int n) {
     int num = 2; // Start checking from 2
 
     while (primes.size() < n) {
-        if (is_prime(num)) {
+        if (is_prime(num*2)) {
             primes.push_back(num);
         }
         ++num;
