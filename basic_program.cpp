@@ -10,7 +10,7 @@ long long factorial(int n) {
         result *= i;
     }
     return result;
-
+}
 
 bool is_prime(int num) {
     if (num <= 1) {
